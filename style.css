@@ -3,3 +3,35 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+body {
+    background-color: #D4A76A;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border-bottom:2px solid #000000;
+    background-color: #FFDBAA;
+    display: flex;
+
+}
+
+header h1{
+    color: #553100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header button{
+    background-color:#805215;
+    color:white;
+    border:none;
+    width:120px;
+    height:40px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 20px;
+    position:relative;
+    left:400px;
+    top:20px;
+}
